@@ -1,19 +1,93 @@
-<body {
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* {
+    box-sizing: border-box;
 }
+body {
+    background-color: lightgray;
+}
+.header {
+ margin: 0 auto;
+ background-color: #3b5998;
+ height: 355px;
+ width: 850px;
+ }
+.profie-photo {
+ height: 200px;
+ width: 200px;
+ background-image: url(images/nepal.jpg);
+ position: relative;
+ top: 190px;
+ left: 30px;
+ z-index: 10;
+ 
+}
+
+.id {
+    position: relative;
+    top: 80px;
+    left: 220px;
+}
+.boxs {
+    height: 50px;
+    width: 850px;
+    background-color: white;
+    position: relative;
+    top: 155px;
+    
+}
+.navbar {
+    position: relative;
+    left: 190px;
+    top: 110px;
+}
+  .navbar ul li{
+        display: inline;
+        margin: 20px;
+        text-decoration: underline;
+        text-decoration-color: #3b5998;
+        
+  } 
+
+  
+
+  .button {
+   position: relative;
+   top: 25px;
+   left: 600px;
+
+  }
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    height: 1000px;
+    margin: 0 auto;
+    
+}   
+
+.column-left {
+    width: 328px;
+    height: 1000px;
+    background-color: blue;
+    
+}
+.column-right {
+    width: 512px;
+    height: 1000px;
+    background-color: blueviolet;
+    
+ }
+
+ .box1 {
+     height: 200px;
+     width: 200px;
+     background-color:red
+    
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
